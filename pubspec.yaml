@@ -1,0 +1,23 @@
+name: firebase_in_app_messaging
+description: Flutter plugin for Firebase In-App Messaging. Manage in-app message campaigns and send messages to engage the right users at the right moment on Android and iOS.
+version: 0.0.1
+author: Jonathan Younger <jonathan@daikini.com>
+homepage: https://github.com/daikini/firebase_in_app_messaging
+
+flutter:
+  plugin:
+    androidPackage: com.daikini.plugins.firebaseinappmessaging
+    iosPrefix: DKI
+    pluginClass: FirebaseInAppMessagingPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+  flutter: '>=0.1.4 <2.0.0'
